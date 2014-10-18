@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Catur Sloki</string>
+    <string name="hello_world">Bhagavad Gita - Catur Sloki</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_screen_sloka108">Ch 10 Verse 8</string>
+    <string name="title_activity_screen_sloka109">Ch 10 Verse 9</string>
+    <string name="title_activity_screen_sloka1010">Ch 10 Verse 10</string>
+    <string name="title_activity_screen_sloka1011">Ch 10 Verse 11</string>
+    <string name="text_sloka108">aham sarvasya prabhavo, mattah sarvam pravartate\n iti matva bhajante mam, budha bhava-samanvitah</string>
+    <string name="text_sloka109">mac-citta mad-gata-prana, bodhayantah parasparam\n kathayantas ca mam nityam, tusyanti ca ramanti ca</string>
+    <string name="text_sloka1010">tesam satata-yuktanam, bhajatam priti-purvakam\n dadami buddhi-yogam tam, yena mam upayanti te</string>
+    <string name="text_sloka1011">tesam evanukampartham, aham ajnana-jam tamah\n nasayamy atma-bhava-stho, jnana-dipena bhasvata</string>
+        
+</resources>
