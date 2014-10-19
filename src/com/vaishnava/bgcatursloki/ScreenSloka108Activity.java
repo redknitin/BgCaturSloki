@@ -1,9 +1,14 @@
 package com.vaishnava.bgcatursloki;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class ScreenSloka108Activity extends Activity {
 
@@ -11,6 +16,10 @@ public class ScreenSloka108Activity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_screen_sloka108);
+//		
+//		TextView tv = (TextView) findViewById(R.id.textView1);
+//		Typeface fontHindi = Typeface.createFromAsset(getAssets(), "fonts/Ananda Lipi Bold Cn Bt.ttf");
+//		tv.setTypeface(fontHindi);
 	}
 
 	@Override
@@ -30,5 +39,10 @@ public class ScreenSloka108Activity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void btnReadMore_click(View v) {
+		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://vedabase.net/bg/10/8/en"));
+		startActivity(browserIntent);
 	}
 }

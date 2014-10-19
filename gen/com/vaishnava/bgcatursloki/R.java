@@ -23,15 +23,20 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int krisarj=0x7f020001;
+        public static final int janmastami=0x7f020001;
+        public static final int krisarj=0x7f020002;
+        public static final int krisarj2=0x7f020003;
+        public static final int krisarj3=0x7f020004;
+        public static final int vishvarup=0x7f020005;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080006;
-        public static final int action_settings=0x7f080007;
+        public static final int action_settings=0x7f080008;
         public static final int btn_sloka1010=0x7f080004;
         public static final int btn_sloka1011=0x7f080005;
         public static final int btn_sloka108=0x7f080002;
         public static final int btn_sloka109=0x7f080003;
+        public static final int button1=0x7f080007;
         public static final int imageView1=0x7f080001;
         public static final int layout_main_screen=0x7f080000;
     }
@@ -52,6 +57,13 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+        /**      <string name="text_dv_sloka108">अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते ।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः ॥</string>
+    <string name="text_dv_sloka109">मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम्‌ ।\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ॥</string>
+    <string name="text_dv_sloka1010">तेषां सततयुक्तानां भजतां प्रीतिपूर्वकम्‌ ।\nददामि बद्धियोगं तं येन मामुपयान्ति ते ॥</string>
+    <string name="text_dv_sloka1011">तेषामेवानुकम्पार्थमहमज्ञानजं तमः।\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता ॥</string>
+ 
+         */
+        public static final int btn_readmore=0x7f05000b;
         public static final int hello_world=0x7f050001;
         public static final int text_sloka1010=0x7f050009;
         public static final int text_sloka1011=0x7f05000a;
